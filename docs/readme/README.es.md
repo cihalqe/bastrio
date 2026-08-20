@@ -68,6 +68,10 @@ Sí. Bastrio admite selección regional de proxy IP, configuración de proxy per
 
 Sí. Los espacios de trabajo y recursos compartidos están diseñados para mantener el trabajo de infraestructura remota organizado y colaborativo.
 
+## Contacto
+
+Correo electrónico: [sup@bastr.io](mailto:sup@bastr.io)
+
 ## Contribuciones
 
 Se agradecen contribuciones e informes de problemas. Mantén las propuestas centradas en el comportamiento visible para el usuario y no incluyas credenciales ni datos de conexión privados en issues o pull requests.

@@ -68,6 +68,10 @@ Sim. Bastrio oferece seleção regional de proxy IP, configuração de proxy per
 
 Sim. Espaços de trabalho e recursos compartilhados são projetados para manter o trabalho de infraestrutura remota organizado e colaborativo.
 
+## Contato
+
+E-mail: [sup@bastr.io](mailto:sup@bastr.io)
+
 ## Contribuições
 
 Contribuições e relatos de problemas são bem-vindos. Mantenha as propostas focadas no comportamento visível para o usuário e não inclua credenciais ou dados privados de conexão em issues ou pull requests.

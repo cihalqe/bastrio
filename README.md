@@ -106,6 +106,10 @@ Yes. Bastrio supports regional proxy IP selection, custom proxy configuration, a
 
 Yes. Workspaces and shared resources are designed to keep remote infrastructure work organized and collaborative.
 
+## Contact
+
+Email: [sup@bastr.io](mailto:sup@bastr.io)
+
 ## Contributing
 
 Contributions and issue reports are welcome. Please keep proposals focused, document user-visible behavior, and avoid adding credentials or private connection data to issues or pull requests.

@@ -68,6 +68,10 @@ Oui. Bastrio prend en charge la sélection de proxy IP par région, la configura
 
 Oui. Les espaces de travail et les ressources partagées sont conçus pour organiser et faciliter la collaboration sur l'infrastructure distante.
 
+## Contact
+
+E-mail : [sup@bastr.io](mailto:sup@bastr.io)
+
 ## Contribution
 
 Les contributions et signalements de problèmes sont bienvenus. Gardez les propositions centrées sur le comportement visible par l'utilisateur et n'ajoutez pas d'identifiants ni de données de connexion privées aux issues ou pull requests.

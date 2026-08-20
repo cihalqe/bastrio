@@ -68,6 +68,10 @@ Bastrio 正在規劃託管伺服器與代理 IP 服務的 Marketplace。它們�
 
 可以。工作空間和共享資源讓遠端基礎設施工作保持有序並利於協同。
 
+## 聯絡方式
+
+電子郵件：[sup@bastr.io](mailto:sup@bastr.io)
+
 ## 貢獻
 
 歡迎提交貢獻和問題回報。請讓提案聚焦於使用者可見行為，並勿在 issue 或 pull request 中提交憑據或私有連線資料。

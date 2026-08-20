@@ -68,6 +68,10 @@ Ja. Bastrio unterstützt regionale Proxy-IP-Auswahl, eigene Proxy-Konfiguration 
 
 Ja. Arbeitsbereiche und geteilte Ressourcen sind dafür konzipiert, Remote-Infrastrukturarbeit geordnet und gemeinschaftlich zu halten.
 
+## Kontakt
+
+E-Mail: [sup@bastr.io](mailto:sup@bastr.io)
+
 ## Mitwirken
 
 Beiträge und Fehlerberichte sind willkommen. Bitte konzentrieren Sie Vorschläge auf sichtbares Nutzerverhalten und fügen Sie Issues oder Pull Requests keine Anmeldedaten oder privaten Verbindungsdaten bei.
