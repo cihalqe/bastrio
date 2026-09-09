@@ -1,0 +1,422 @@
+[
+  {
+    "canonical_url": "https://bastr.io/en/articles/ssh-tools-browser-workspace/",
+    "locale": "en",
+    "path": "docs/articles/en/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "b696f585e99fbb347f89637e6143f860e6f35b5079b120087bd12cdbdcf9bbfc"
+  },
+  {
+    "canonical_url": "https://bastr.io/en/articles/remote-database-tools-comparison/",
+    "locale": "en",
+    "path": "docs/articles/en/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "652b36f474bc0b3060004ddf7c8f3033acae0327e246724187ad6e61fc4e1014"
+  },
+  {
+    "canonical_url": "https://bastr.io/en/articles/mcp-remote-management-tools/",
+    "locale": "en",
+    "path": "docs/articles/en/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "a4a0fe971c0b2b257adb7942801d832986b785fcc346b683914a60f325aa2aeb"
+  },
+  {
+    "canonical_url": "https://bastr.io/en/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "en",
+    "path": "docs/articles/en/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "c23eadb2dfa0a4e20135ef5788fc35d25c13ae34d28ccc5af5c10ea281a3ab18"
+  },
+  {
+    "canonical_url": "https://bastr.io/en/articles/docker-management-tools-by-scenario/",
+    "locale": "en",
+    "path": "docs/articles/en/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "54bc39c9ffffbdbbdb2ca165e12be7ad9a656cc93182ec793ae3c197cc7ec966"
+  },
+  {
+    "canonical_url": "https://bastr.io/en/articles/browser-remote-desktop-tools/",
+    "locale": "en",
+    "path": "docs/articles/en/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "9986cc92c143df3a16016bc127adcf61956001ee740baf913b700796413bbdca"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/ssh-tools-browser-workspace/",
+    "locale": "zh",
+    "path": "docs/articles/zh/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "1bfe4e8a08b8745b90dfe7e9a1cd4235098ca72827f00f470c86e1066ca6e5b3"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/remote-database-tools-comparison/",
+    "locale": "zh",
+    "path": "docs/articles/zh/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "1e598740e64803e3097230acdf9d274e9a66c163afb39442977d35b3589a6eb7"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/mcp-remote-management-tools/",
+    "locale": "zh",
+    "path": "docs/articles/zh/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "aeaa7075cb6ad233f4739a2be5134058c87af684db6ee60be8fa9fed860bec8a"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "zh",
+    "path": "docs/articles/zh/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "f359d3ed02294a8cff3f3e997892a47894c1f61d3d6b865a6a209475669facc6"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/docker-management-tools-by-scenario/",
+    "locale": "zh",
+    "path": "docs/articles/zh/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "0973b826f1bfbd8711e45e3eec03377926aeb8a82115e4b392ada62468114b55"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh/articles/browser-remote-desktop-tools/",
+    "locale": "zh",
+    "path": "docs/articles/zh/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "59312802340525d97ddc8e78d09ddff54361f90363c863ab1bde4d9d7b34ef85"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/ssh-tools-browser-workspace/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "74410373fac956a6bf1629cc2c88c92f02cc38fba9f4e7c23f542eb3d464f892"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/remote-database-tools-comparison/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "494a9b9347a7f0bd25eaccf42fd08b13fd2c0769a42335f18db85493e769da6c"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/mcp-remote-management-tools/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "eb7a183346dda7f5f1e6fed26755195cbadb6a90d11a9bfc3a5fa4f87f0c6e0e"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "6c2f02a05ac11f969fc24cbe78f9ad5da7c19f45211fe022fdb3ea472b89738d"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/docker-management-tools-by-scenario/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "735d6caf7df895f4f41dd99719b6bdecd42dc0190a03ee1840bac013cec4f298"
+  },
+  {
+    "canonical_url": "https://bastr.io/zh-TW/articles/browser-remote-desktop-tools/",
+    "locale": "zh-TW",
+    "path": "docs/articles/zh-TW/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "a5539b5460f4a88a2af2cea7f4f2c136d10404c3e6961b336c749c88b82a12a1"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/ssh-tools-browser-workspace/",
+    "locale": "es",
+    "path": "docs/articles/es/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "a457bc6310750ef93ec7be462ac629331df470f0b741b6c4e833b82c28dbabfb"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/remote-database-tools-comparison/",
+    "locale": "es",
+    "path": "docs/articles/es/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "f7250bcbe7bb8c0d43456a8095196c00c9d3a18730f96fc8ed1f04e6a391bb3e"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/mcp-remote-management-tools/",
+    "locale": "es",
+    "path": "docs/articles/es/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "4bc6d9541a33cf13a165ce856d436ebfa5b237ee8fe6dd0d1322be8fc6009a8d"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "es",
+    "path": "docs/articles/es/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "a48be4fd27f486c35aeefd4f8cae921c14f343dd0060621426495149c2afc724"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/docker-management-tools-by-scenario/",
+    "locale": "es",
+    "path": "docs/articles/es/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "7f648ae52c7fdbb2d29381c24f7fda966e242a482f27511f7031d3bfeae2cc0b"
+  },
+  {
+    "canonical_url": "https://bastr.io/es/articles/browser-remote-desktop-tools/",
+    "locale": "es",
+    "path": "docs/articles/es/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "00e80297dd04434a428a9a538c1db35d53f9ce12c4aa23969554bcac44595a96"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/ssh-tools-browser-workspace/",
+    "locale": "de",
+    "path": "docs/articles/de/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "06c6fbe000925c865605a4a6bde53f1d047575fc6ce0bf9e5b918459aa471238"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/remote-database-tools-comparison/",
+    "locale": "de",
+    "path": "docs/articles/de/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "850cfd31fba3a5510455cae2885585b34964a3e7b485646faef1034f03ee1ec7"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/mcp-remote-management-tools/",
+    "locale": "de",
+    "path": "docs/articles/de/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "ff46c74224b7dc9e1506141d1a0cd5fbdaf1b7244b5b28ee55a9073d69a43984"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "de",
+    "path": "docs/articles/de/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "773b4e9bc225bf9e4cb9dd06a14504a4e1db622807fa29e8c73553b34fd2a578"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/docker-management-tools-by-scenario/",
+    "locale": "de",
+    "path": "docs/articles/de/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "24a5b037763a5fb6bfd4dcdb119e18883ac51b0385c6cd99dd9cfc67f97164a2"
+  },
+  {
+    "canonical_url": "https://bastr.io/de/articles/browser-remote-desktop-tools/",
+    "locale": "de",
+    "path": "docs/articles/de/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "76796fbb6cf387987a68b344207bfb5baebc6238f3c7a162aea8d64db96a270d"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/ssh-tools-browser-workspace/",
+    "locale": "fr",
+    "path": "docs/articles/fr/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "61c64d7140a9db07d2cd5ae603820b5b675a6f4314dbd715c47c8b493bdca786"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/remote-database-tools-comparison/",
+    "locale": "fr",
+    "path": "docs/articles/fr/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "7481f38a2b07bae401fe7e08c0ffb7d496726b71d3882be073bc5946f17795d9"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/mcp-remote-management-tools/",
+    "locale": "fr",
+    "path": "docs/articles/fr/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "db43cf77961e9164d389657943e0ae5ea1501520e89a53769a4d42806c6d29ec"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "fr",
+    "path": "docs/articles/fr/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "648e87c3de4f31ae932e08af2b14ac76a2f9b0b9bfc232f4a344a3f4dd4ece33"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/docker-management-tools-by-scenario/",
+    "locale": "fr",
+    "path": "docs/articles/fr/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "21ad949d018899655f5e6ee0f54dbb56f5083e82431bf54f9713bbb6b849bec1"
+  },
+  {
+    "canonical_url": "https://bastr.io/fr/articles/browser-remote-desktop-tools/",
+    "locale": "fr",
+    "path": "docs/articles/fr/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "e971e9940d034b57605083480df31d55221ad95deb7e9a4eb2504ab1f03901f3"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/ssh-tools-browser-workspace/",
+    "locale": "ja",
+    "path": "docs/articles/ja/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "8ca5c1e42e985d39c8b3b78fe9cd25605db77110f266448e549336481e283e23"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/remote-database-tools-comparison/",
+    "locale": "ja",
+    "path": "docs/articles/ja/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "1276e958e104ecbfc72419e0b168a96fe7ff1cd71775fde6293a66995800b188"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/mcp-remote-management-tools/",
+    "locale": "ja",
+    "path": "docs/articles/ja/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "05bdb6778ed47bfee9e4a452a1dab9c1628ac1ce386ab28de750f5763551b324"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "ja",
+    "path": "docs/articles/ja/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "b69b116a9cd4e2c81fddc6bc9dae76515dbcc1541d931548fab20a8dcc5aef99"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/docker-management-tools-by-scenario/",
+    "locale": "ja",
+    "path": "docs/articles/ja/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "7a65af744cf4eef1f83ed5728ee8adde56480baff68b9a3b019ac9862f88d57c"
+  },
+  {
+    "canonical_url": "https://bastr.io/ja/articles/browser-remote-desktop-tools/",
+    "locale": "ja",
+    "path": "docs/articles/ja/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "4dd77f68ce355f0f1723b8fb988d46ba29fd57feb6d5101b2d8d64761565476f"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/ssh-tools-browser-workspace/",
+    "locale": "ko",
+    "path": "docs/articles/ko/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "3c215d9f16b9cc859539f3f6e2e1345738e8284eeda255508d63c3a988487ecd"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/remote-database-tools-comparison/",
+    "locale": "ko",
+    "path": "docs/articles/ko/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "34df41f3bb2bcaba3d7240567c45396547371ffd1c33df02668acfa4ea39bf9f"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/mcp-remote-management-tools/",
+    "locale": "ko",
+    "path": "docs/articles/ko/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "c67a6e5dc364e2b6a8bc9e76ed2ff89f2c6585ca1f1591055b73c7bdf24dd31b"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "ko",
+    "path": "docs/articles/ko/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "f8b16c04a5d81df643627dbce85f23cd9fb91c05342cdc52dca6c3eff1399335"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/docker-management-tools-by-scenario/",
+    "locale": "ko",
+    "path": "docs/articles/ko/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "5bcc5a5fc65dc455f821def1dc427dd9706a8976a92febfe4482ff5e04ff46e1"
+  },
+  {
+    "canonical_url": "https://bastr.io/ko/articles/browser-remote-desktop-tools/",
+    "locale": "ko",
+    "path": "docs/articles/ko/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "776eb1a2d24dc9768ea0b0fcf4c1cf292b4298ed7037b7f40cea9a15b0478ce1"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/ssh-tools-browser-workspace/",
+    "locale": "ms",
+    "path": "docs/articles/ms/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "d868f63fb92dda6016249ea93d9c91b4dc2b0944c19f805a8e1a55235c14ab98"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/remote-database-tools-comparison/",
+    "locale": "ms",
+    "path": "docs/articles/ms/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "9bb0f0b9c1ba3bbcc7d3ea7870ab1da2218db2cf1e00428d8f8b4da6efa78a93"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/mcp-remote-management-tools/",
+    "locale": "ms",
+    "path": "docs/articles/ms/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "e95cb550065c05e0c3d98895dcfdb733a7801a5b99eb11e598fc05435e5e0b3e"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "ms",
+    "path": "docs/articles/ms/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "0a5c128eb317e8d72ed4d5c0988fdc5e582ccee9cdd3b217ee1227f02ba94299"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/docker-management-tools-by-scenario/",
+    "locale": "ms",
+    "path": "docs/articles/ms/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "44df17905969836582f9655835ff5e4209ff93c3217c937f07348b623af94c4b"
+  },
+  {
+    "canonical_url": "https://bastr.io/ms/articles/browser-remote-desktop-tools/",
+    "locale": "ms",
+    "path": "docs/articles/ms/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "d4f64a731ab0fe2673f2e95556448f8dd3643a6d09e272c99d8425a8dd49cdf5"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/ssh-tools-browser-workspace/",
+    "locale": "ru",
+    "path": "docs/articles/ru/ssh-tools-browser-workspace.md",
+    "source_updated_at": "2026-09-06T18:16:09.219766Z",
+    "public_content_sha256": "37cd1b9c9d30a942bd70e48844f529892e1412e7018494c15dd226891e4c9866"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/remote-database-tools-comparison/",
+    "locale": "ru",
+    "path": "docs/articles/ru/remote-database-tools-comparison.md",
+    "source_updated_at": "2026-09-06T18:16:12.267970Z",
+    "public_content_sha256": "e2dfed67e788f97b37e5d42f2c214b6e656128d942dfcb5dc4eb56cca454b9d1"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/mcp-remote-management-tools/",
+    "locale": "ru",
+    "path": "docs/articles/ru/mcp-remote-management-tools.md",
+    "source_updated_at": "2026-09-06T18:16:24.571289Z",
+    "public_content_sha256": "fd1b8ab6f47bbce65c8c6be5a5b1ef582b6cf34f64853ebdd5c11c5889038fef"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/ftp-sftp-tools-browser-workflow/",
+    "locale": "ru",
+    "path": "docs/articles/ru/ftp-sftp-tools-browser-workflow.md",
+    "source_updated_at": "2026-09-06T18:16:15.547367Z",
+    "public_content_sha256": "70d7b7966a7de12111dc38f29113c0a8de35043761159b78af8cacf6d0aab50d"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/docker-management-tools-by-scenario/",
+    "locale": "ru",
+    "path": "docs/articles/ru/docker-management-tools-by-scenario.md",
+    "source_updated_at": "2026-09-06T18:16:21.457738Z",
+    "public_content_sha256": "5371c495a513f403a4cc7e3ac27136fe7595923be0f5c1aa536aa798cece8859"
+  },
+  {
+    "canonical_url": "https://bastr.io/ru/articles/browser-remote-desktop-tools/",
+    "locale": "ru",
+    "path": "docs/articles/ru/browser-remote-desktop-tools.md",
+    "source_updated_at": "2026-09-06T18:16:18.488575Z",
+    "public_content_sha256": "79b8a3b01cc85d39ecb766f4635dff348679e8eb701420ca4e58058402054033"
+  }
+]

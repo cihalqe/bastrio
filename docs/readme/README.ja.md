@@ -1,81 +1,130 @@
-<p align="center"><a href="https://bastr.io/"><img src="../images/readme/bastrio-wordmark.png" width="340" alt="Bastrio" /></a></p>
+<p align="center">
+  <a href="https://bastr.io/ja/"><img src="../images/readme/bastrio-wordmark.png" width="340" alt="Bastrio" /></a>
+</p>
 
-<p align="center">安全なリモートアクセス、インフラ作業、コラボレーションのためのブラウザワークスペース。</p>
+# Bastrio — WebSSH、リモートデスクトップ、データベース、Docker をブラウザで
 
-<p align="center"><a href="https://bastr.io/"><strong>bastr.io</strong></a> &nbsp;|&nbsp; <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPL--3.0--only-2b82f0.svg" alt="GPL-3.0-only" /></a></p>
+[Bastrio（Bastr.io）](https://bastr.io/ja/) は、リモートサーバー管理のためのブラウザワークスペースです。オンライン SSH ターミナル、SFTP によるファイル転送、RDP・VNC のリモートデスクトップ、データベース操作、Docker ホストの管理を一か所で行えます。接続の保存、画面分割、共有ワークスペース、AI の支援で関連する作業をまとめながら、認証情報の暗号化保存とアカウント保護も日々の操作に組み込めます。
 
-<p align="center"><a href="../../README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-TW.md">繁體中文</a> | <strong>日本語</strong> | <a href="README.ko.md">한국어</a> | <a href="README.es.md">Español</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.pt.md">Português</a> | <a href="README.ar.md">العربية</a></p>
+[ワークスペースを開く](https://bastr.io/workspace/) · [ガイドを読む](../articles/README.md) · [公式サイト](https://bastr.io/ja/)
 
-## リモートインフラのためのブラウザワークスペース
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · 日本語 · [한국어](README.ko.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [العربية](README.ar.md)
 
-[Bastrio](https://bastr.io/) は、**オンライン SSH**、SFTP、FTP/FTPS、RDP、VNC、データベース接続を一つのブラウザワークスペースにまとめます。Web SSH ターミナル、オンラインファイルマネージャー、ブラウザデータベースクライアント、そしてチームのリモートサーバー管理スペースとして使えます。
+## 作業の流れに沿ったワークスペース
 
-![Bastrio のオンライン SSH とブラウザリモートアクセス](../images/readme/ssh-online-guest.png)
+ホストに接続し、ターミナルを開き、設定ファイルを確認して、データベースやコンテナを調べる。この一連の作業を、複数のアプリで接続環境を整え直すことなく進められます。Bastrio はホストのサイドバー、セッションタブ、分割レイアウト、ファイルとデータベースのパネル、専用の Docker・AI ビューを作業のそばに配置します。
 
-## 主な機能
+![SSH ターミナルと SFTP ファイルマネージャーを分割表示した Bastrio のブラウザワークスペース](../images/readme/split-workspace.png)
 
-- **ブラウザから接続：** オンライン SSH ターミナル、SFTP/FTP/FTPS のファイル操作、RDP と VNC のリモートデスクトップ。
-- **統合データベースツール：** PostgreSQL、MySQL/MariaDB、SQL Server、Redis、MongoDB を同じワークスペースで接続。
-- **接続を整理：** 保存済み接続、フォルダー、種類フィルター、最近の接続、複数セッション、分割レイアウト。
-- **ネットワーク経路を選択：** 地域別のプロキシ IP、カスタムプロキシ、または SSH ジャンプホストで非公開インフラへアクセス。
-- **AI アシスタント：** ターミナルやデータベースの横で出力の説明、コマンド作成、日常作業を支援。
-- **共同ワークスペース：** ワークスペースと共有リソースでチームの接続コンテキストを保ちます。
-- **暗号化された作業文書：** 機密メモ、下書き、作業テキストをワークスペース内で暗号化して保存。
+| 機能 | 画面からできること |
+| --- | --- |
+| ホストとセッション | 接続の保存、フォルダーでの整理、接続タイプによる絞り込み、最近のセッションの再表示、タブや分割画面の配置。 |
+| WebSSH とリモートコマンド | SSH のパスワード認証・秘密鍵認証、ブラウザターミナル、クイックコマンド、検索、再接続。利用が有効になっている場合は WinRM と Telnet の接続タイプも使えます。 |
+| SFTP、FTP、FTPS | ディレクトリの閲覧、ファイルのアップロード・ダウンロード、フォルダーの作成、ファイル名の変更、ターミナル横での対応テキストファイルの編集。 |
+| RDP と VNC | ブラウザでリモートデスクトップを開き、セッション操作、クリップボード、キーボードショートカットを利用。接続先には到達可能な RDP または VNC サービスが必要です。 |
+| データベースクライアント | PostgreSQL、MySQL/MariaDB、SQL Server、Redis、MongoDB に接続。各エンジンのデータブラウザーと、利用可能なクエリ・編集・バックアップ機能を使えます。 |
+| Docker | 既存の SSH ホストを追加し、コンテナの検出、リソース使用量の確認、コンテナ・Compose プロジェクト・イメージ・ボリューム・ネットワークの操作。アプリケーションテンプレートや、対応するカスタムイメージ・Compose のデプロイ手順も利用できます。 |
+| ネットワーク経路 | 利用可能な地域別プロキシ経路の選択、独自プロキシの設定、SSH 踏み台ホストの利用。 |
+| 共有ワークスペース | 個人用とチーム用ワークスペースの切り替え、メンバーの招待、選択したリソースへのアクセス権付与。 |
+| AI と MCP | ターミナルやデータベースの作業中に AI へ相談したり、許可したリソースに MCP クライアントから接続したりできます。 |
+| 暗号化した運用手順書とクラウドストレージ | 作業文書の整理、機密性の高い運用手順書の専用パスワードによる暗号化、利用可能なストレージ内のファイル管理。 |
 
-<p align="center"><img src="../images/readme/ssh-online-terminal.png" width="49%" alt="Bastrio のオンライン SSH ターミナル" /> <img src="../images/readme/connection-types.png" width="49%" alt="Bastrio の接続タイプ" /></p>
+利用可能なプロトコル、Docker の操作、データベースへの書き込み、AI の利用量、ストレージは、アカウント、ワークスペースの権限、接続先サービスによって異なります。現在のセッションで使える機能は画面に表示されます。
 
-<p align="center"><img src="../images/readme/remote-workspace.png" width="49%" alt="Bastrio のリモートワークスペース" /> <img src="../images/readme/sftp-file-browser.png" width="49%" alt="Bastrio の SFTP ファイルブラウザー" /></p>
+## 自分で管理できる暗号化とアクセス制御
 
-<p align="center"><img src="../images/readme/proxy-region-picker.png" width="49%" alt="Bastrio のプロキシ地域選択" /> <img src="../images/readme/split-workspace.png" width="49%" alt="Bastrio の分割ワークスペース" /></p>
+Bastrio は暗号化保存に加え、アカウントと接続の保護設定を画面から確認・管理できます。
 
-<p align="center"><img src="../images/readme/postgresql-workspace.png" width="49%" alt="Bastrio の PostgreSQL ワークスペース" /> <img src="../images/readme/encrypted-operations-documents.png" width="49%" alt="Bastrio の暗号化作業文書" /></p>
+- **接続認証情報の暗号化。** 保存した接続パスワードと秘密鍵は、保存時に AES-256-GCM で暗号化されます。
+- **通信の保護。** Bastr.io には HTTPS でアクセスしてください。SSH/SFTP と FTPS はリモート接続の通信を暗号化します。接続先に合った安全なプロトコルを選びましょう。
+- **アカウント保護。** 二要素認証を有効にし、リカバリーキーはオフラインで保管してください。パスワードをリセットした後は、復旧手順を通じて暗号化された接続認証情報へのアクセスを回復できます。
+- **運用手順書の暗号化。** 機密メモには暗号化モードを選び、文書専用のパスワードを設定できます。エディターで暗号化と保存を確認し、文書のパスワードを安全に保管してください。
+- **AI のアクセスを制御。** MCP API キーには権限と有効期限を設定でき、アクセスの取り消しも可能です。機密性の高い操作を許可する前にブラウザの承認リクエストを確認し、サーバーの認証情報はワークスペースの画面で管理してください。
 
-<p align="center"><img src="../images/readme/recovery-key.png" width="49%" alt="Bastrio のリカバリーキー" /></p>
+これらの保護は、リモートシステム側の権限やセキュリティ設定と組み合わせて機能します。復旧に必要な情報や実際の認証情報を、共有文書、スクリーンショット、AI との会話に含めないでください。
 
-## 制御できるネットワーク経路
+## WebSSH・データベース・Docker ツールの代替候補
 
-Bastrio では、作業に合う経路でブラウザリモートアクセスを利用できます。出口地域が必要なら**プロキシ IP**、経路を制御したいならカスタムプロキシ、直接公開されていない環境には **SSH ジャンプホスト**を選びます。これらは接続設定にまとまっており、別のツールは不要です。
+複数のリモートリソースを、ブラウザ上の共有ワークフローで扱いたい場合に Bastrio が役立ちます。Termius の代替、FinalShell・Xshell のブラウザ版に相当するツール、Navicat のようなデータベースクライアント、SSH 経由で Docker を管理できる Portainer の代替を探しているなら、まず実際に行いたい作業から比較してください。
 
-## 集中できる共同リモート作業
+| 比較対象となるツール | Bastrio を検討したい場面 | 詳細ガイド |
+| --- | --- | --- |
+| Termius、FinalShell、MobaXterm、Xshell、SecureCRT、PuTTY | ブラウザでの SSH、ホストの保存、セッションの分割表示、隣接するファイルツールを使いたい場合。デスクトップのスクリプト機能や X11 の要件は別途確認してください。 | [SSH ツールとブラウザワークスペース](../articles/ja/ssh-tools-browser-workspace.md) |
+| WinSCP、FileZilla、Xftp、Cyberduck | リモートセッションの横で SFTP または FTP/FTPS による転送とテキスト編集を行いたい場合。 | [FTP/SFTP ツールと作業フロー](../articles/ja/ftp-sftp-tools-browser-workflow.md) |
+| Navicat、DBeaver、DataGrip、pgAdmin、Redis Insight、MongoDB Compass | ホストと同じ作業画面でブラウザのデータベースクライアントを使いたい場合。エンジン、クエリ、編集、バックアップの要件で選んでください。 | [リモートデータベースツールの比較](../articles/ja/remote-database-tools-comparison.md) |
+| Apache Guacamole、TeamViewer、AnyDesk、ToDesk | 既存の RDP/VNC 接続先にブラウザからアクセスしたい場合。利用者が立ち会うリモートサポートとデスクトップゲートウェイでは、接続条件が異なります。 | [ブラウザのリモートデスクトップツール](../articles/ja/browser-remote-desktop-tools.md) |
+| Portainer、Dockge、Docker Desktop | 既存の SSH ホストを使ってリモートの Docker と Compose リソースを管理したい場合。ローカルでのコンテナ開発やクラスター管理は、別の選定条件として検討してください。 | [用途別 Docker 管理ツール比較](../articles/ja/docker-management-tools-by-scenario.md) |
+| SSH・データベース・Docker ツールと組み合わせる MCP ワークフロー | 権限設定と操作の承認を通じて、AI クライアントに許可したリソースの検出・操作を任せたい場合。 | [MCP によるリモート管理](../articles/ja/mcp-remote-management-tools.md) |
 
-Bastrio は、サーバー、ファイル、デスクトップ、データベースを行き来する開発者、運用担当者、チーム向けのリモートワークスペースです。ワークスペースと共有リソースが文脈を保ち、複数セッションと分割レイアウトが関連作業を表示し続け、AI アシスタントは作業のそばにいます。
+この比較は作業の進め方を軸にしています。機能の範囲は製品、エディション、設定によって異なります。リンク先のガイドでは、専用ツールがより適している場面も説明しています。
 
-## プライバシー設計
+## ブラウザで使い始める
 
-認証情報と非公開ワークスペースの内容は、転送中と保存時に暗号化されます。Bastrio は許可された操作に必要な場合のみ、サーバーの揮発性メモリで認証情報を一時的に復号します。平文がディスクやログに書き込まれることはありません。ユーザーに表示されるすべてのアクセスには、有効な認証済みセッションが必要です。セッションの期限切れまたは失効後は、暗号化ボルトへのアクセスや復号は一切できません。リカバリーキーは一度だけ表示され、パスワードリセット後に暗号化された認証情報を復元するために必要です。このキーがなければ、暗号化ボルトは復元も可読形式でのエクスポートもできません。
+1. [bastr.io](https://bastr.io/ja/) にアクセスします。ゲスト接続が提供されている場合は一時的なセッションに利用でき、サインインすると接続や作業リソースを保存・整理できます。
+2. **クイック接続（Quick Connect）**で接続タイプを選んで接続先を入力するか、**ホスト（Hosts）**に追加します。パスワードと秘密鍵は接続フォームにのみ入力してください。
+3. 接続先に特定のネットワーク経路が必要なら、プロキシまたは SSH 踏み台ホストを選びます。
+4. セッションを開きます。次の作業に応じて**ファイル（Files）**、データベースパネル、**Docker** を利用し、レイアウト操作で関連セッションを配置します。
+5. チームで作業する場合は、適切なワークスペースを選び、メンバーに必要なリソースを共有します。アカウントを日常的なアクセスに使う前に、二要素認証を有効にして復旧に必要な情報を保管してください。
 
-## Marketplace（予定）
+ゲストアクセスには独自の提供条件と利用枠があります。ホストの保存、チーム機能、一部のツールには、サインインまたは対象となるアカウントが必要です。
 
-Bastrio はマネージドサーバーとプロキシ IP サービスの Marketplace を準備しています。これらは将来のリリースに向けた計画であり、現在利用できるサービスではありません。
+## SSH 経由の Docker 管理
 
-## はじめる
+ワークスペースで **Docker** を開き、アクセス権のある SSH ホストを選びます。Docker ビューには、コンテナ、Compose、イメージ、ボリューム、ネットワーク、タスクの進行状況がまとまっています。コンテナの状態やリソース使用量を確認し、対応するライフサイクル操作を実行できます。利用可能なアプリケーションテンプレート、カスタムイメージ、対応する Compose 設定からデプロイを始めることもできます。
 
-1. [bastr.io](https://bastr.io/) で Bastrio リモートワークスペースを開きます。
-2. SSH、ファイル転送、リモートデスクトップ、またはデータベース接続を選びます。
-3. 必要に応じてネットワーク経路を選び、接続を保存・整理します。
+Docker が未インストールの場合、対応する Linux ホストでは、提案された操作を確認・承認してから画面の案内に沿ってインストールできます。利用可否はホスト、権限、現在提供されている機能によって異なります。実際に試して評価する手順は [Docker 比較ガイド](../articles/ja/docker-management-tools-by-scenario.md)を参照してください。
+
+## MCP で AI クライアントを接続する
+
+Bastrio は、Claude Code、Codex、Cursor、VS Code などのクライアントからの Model Context Protocol（MCP）接続に対応しています。MCP は内蔵 AI アシスタントを補完し、選んだクライアントから、許可されたホスト、ファイル、データベース、ネットワーク経路を扱えるようにします。
+
+1. ワークスペースで**ツール → MCP API キー（Tools → MCP API Keys）**を開きます。
+2. クライアントに必要な権限と有効期限を設定してキーを作成します。
+3. クライアントを選び、そのページに表示される接続手順に従います。
+4. キーはクライアントが対応するシークレット管理または環境変数の設定で保管してください。ブラウザで承認リクエストを確認し、不要になったアクセスは取り消します。
+
+接続先エンドポイントは、アカウント画面に表示されるものを使ってください。利用できるツールは付与した権限によって異なるため、クライアントから MCP サービスを通じて検出してください。SSH、データベース、Docker の作業と組み合わせる例は [MCP ガイド](../articles/ja/mcp-remote-management-tools.md)で紹介しています。
+
+## 6 本の実用ガイドを 10 言語で
+
+[ガイドライブラリ](../articles/README.md)には、公開済みの比較記事 6 本を、英語、簡体字中国語、繁体字中国語、スペイン語、ドイツ語、フランス語、日本語、韓国語、マレー語、ロシア語で収録しています。各言語版は既存の記事本文、図版、FAQ、Bastr.io の元記事へのリンクを保持しています。
+
+[English guides](../articles/en/README.md) · [简体中文指南](../articles/zh/README.md) · [繁體中文指南](../articles/zh-TW/README.md) · [日本語](../articles/ja/README.md) · [한국어](../articles/ko/README.md) · [Español](../articles/es/README.md) · [Deutsch](../articles/de/README.md) · [Français](../articles/fr/README.md) · [Bahasa Melayu](../articles/ms/README.md) · [Русский](../articles/ru/README.md)
 
 ## よくある質問
 
-### Bastrio は Web SSH ターミナルですか？
+### Bastrio とは何ですか？
 
-はい。Bastrio はブラウザでオンライン SSH を提供し、ファイル転送、リモートデスクトップ、データベース、プロキシ、ワークスペースの機能を統合します。
+Bastrio は、WebSSH、ファイル転送、RDP/VNC、データベース、Docker 管理、リソース共有、AI 支援をまとめたブラウザワークスペースです。複数のリモートシステムを扱う開発者や運用担当者向けに設計されています。
 
-### プロキシ IP、カスタムプロキシ、SSH ジャンプホストは使えますか？
+### Bastrio は Termius、FinalShell、MobaXterm の代わりになりますか？
 
-はい。地域別プロキシ IP、カスタムプロキシ設定、SSH ジャンプホストをサポートしています。
+Bastrio は、一般的な SSH とファイル管理の作業をブラウザで行うためのワークフローを提供します。ツールを切り替える前に、ローカルシェルとの連携、マクロ、X11 など、普段使っているデスクトップ機能の要件を確認してください。[SSH ツール比較](../articles/ja/ssh-tools-browser-workspace.md)で用途に応じた選び方を紹介しています。
 
-### チームで同じ環境を共有できますか？
+### Bastrio は Navicat や DBeaver のブラウザ版の代替として使えますか？
 
-はい。ワークスペースと共有リソースは、リモートインフラ作業を整理し、共同作業しやすくするためのものです。
+PostgreSQL、MySQL/MariaDB、SQL Server、Redis、MongoDB の一般的なリモートデータベース作業に利用できます。操作できる範囲はエンジンと権限によって異なります。高度なモデリング、同期、専門的な開発フローは、実際の要件に照らして評価してください。
 
-## 連絡先
+### Bastrio は Portainer の代替になりますか？
 
-メール: [sup@bastr.io](mailto:sup@bastr.io)
+SSH、ファイル、データベースの作業と並行して Docker ホストや Compose を管理したい場合、Bastrio では既存の SSH 接続を使ったブラウザのワークフローを利用できます。[Docker ガイド](../articles/ja/docker-management-tools-by-scenario.md)を参考に、環境やデプロイの要件と照らし合わせてください。
 
-## コントリビューション
+### デスクトップクライアントのインストールは必要ですか？
 
-貢献と issue 報告を歓迎します。提案はユーザーに見える動作に集中させ、認証情報や非公開の接続データを issue や pull request に含めないでください。
+対応するブラウザからワークスペースを利用できます。接続先には到達可能な SSH、ファイル転送、リモートデスクトップ、またはデータベースのサービスと、有効なアクセス認証情報が必要です。
 
-## ライセンス
+### 接続認証情報や機密メモはどのように保護されますか？
 
-Bastrio は [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) で公開されています。
+保存した接続認証情報は AES-256-GCM で暗号化され、ブラウザから Bastr.io へのアクセスには HTTPS を使います。機密性の高い運用手順書は、文書専用のパスワードで暗号化して保存できます。二要素認証、復旧に必要な情報、リソースごとの権限も、追加の保護手段になります。
+
+### アカウントなしで始められますか？
+
+ホームページでゲスト接続が提供されている場合は利用できます。ゲストアクセスの提供状況、対応プロトコル、利用時間枠は変更されることがあります。接続を保存したり、アカウントで利用可能なツールを使ったりするにはサインインしてください。
+
+## 連絡先とプロジェクト情報
+
+公式サイト：[bastr.io](https://bastr.io/ja/) · サポート：[sup@bastr.io](mailto:sup@bastr.io) · [問題を報告](https://github.com/cihalqe/bastrio/issues)
+
+このリポジトリには、Bastrio の公開製品ドキュメントとガイドを収録しています。提案や修正を歓迎します。Issue や Pull Request では、機密情報を含まない例のみを共有してください。
+
+ライセンス：[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)。

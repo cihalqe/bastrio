@@ -1,0 +1,49 @@
+# Bastrio
+
+> Bastrio (Bastr.io) is a browser workspace for WebSSH, file transfer, RDP/VNC remote desktops, databases, Docker management and team collaboration.
+
+Website: https://bastr.io/
+Public documentation: https://github.com/cihalqe/bastrio
+
+Bastrio brings saved connections, folders, session tabs, split views, network paths, a built-in AI assistant and MCP client access into one remote-management workflow. It supports SSH, SFTP, FTP, FTPS, RDP, VNC, WinRM and Telnet connection types, and PostgreSQL, MySQL/MariaDB, SQL Server, Redis and MongoDB databases. Availability and actions depend on the account, workspace permissions and destination service.
+
+Saved connection credentials use AES-256-GCM encryption at rest. Bastr.io uses HTTPS for browser access, offers two-factor authentication and account recovery, and supports encrypted runbooks with a separate document password. MCP access uses selected permissions, expiring and revocable API keys, and browser approval controls.
+
+The guides compare tools by task and operating environment. They cover SSH clients such as Termius, FinalShell, MobaXterm and Xshell; file tools such as WinSCP and FileZilla; database tools such as Navicat, DBeaver and DataGrip; remote desktop tools such as Apache Guacamole, TeamViewer and AnyDesk; and Docker tools such as Portainer, Dockge and Docker Desktop. Feature equivalence depends on the specific workflow.
+
+## Product documentation
+
+- [English product overview](https://github.com/cihalqe/bastrio/blob/main/README.md): Current workspace capabilities, encryption, getting started and FAQ.
+- [简体中文产品介绍](https://github.com/cihalqe/bastrio/blob/main/docs/readme/README.zh-CN.md): 在线 SSH、文件管理、数据库、Docker、MCP 与加密保护。
+- [Multilingual guide library](https://github.com/cihalqe/bastrio/blob/main/docs/articles/README.md): Six comparisons in ten existing languages, with original article links.
+
+## Original English articles
+
+- [SSH tools and browser workspaces](https://bastr.io/en/articles/ssh-tools-browser-workspace/): Choose an SSH workflow by platform, sessions and file-management needs.
+- [Remote database management tools](https://bastr.io/en/articles/remote-database-tools-comparison/): Compare SQL, PostgreSQL, MySQL, Redis and MongoDB tools by task.
+- [MCP remote management](https://bastr.io/en/articles/mcp-remote-management-tools/): Understand how AI clients, permissions and browser approvals fit remote operations.
+- [FTP/SFTP tools and workflow](https://bastr.io/en/articles/ftp-sftp-tools-browser-workflow/): Compare transfers and online file editing.
+- [Docker management by scenario](https://bastr.io/en/articles/docker-management-tools-by-scenario/): Choose between remote host management, Compose and local development tools.
+- [Browser remote desktops](https://bastr.io/en/articles/browser-remote-desktop-tools/): Compare RDP/VNC gateways and remote assistance workflows.
+
+## Original Simplified Chinese articles
+
+- [SSH 工具与浏览器工作区](https://bastr.io/zh/articles/ssh-tools-browser-workspace/)
+- [远程数据库管理工具对比](https://bastr.io/zh/articles/remote-database-tools-comparison/)
+- [MCP 远程管理工具](https://bastr.io/zh/articles/mcp-remote-management-tools/)
+- [FTP/SFTP 工具与维护流程](https://bastr.io/zh/articles/ftp-sftp-tools-browser-workflow/)
+- [Docker 可视化工具场景对比](https://bastr.io/zh/articles/docker-management-tools-by-scenario/)
+- [浏览器远程桌面工具](https://bastr.io/zh/articles/browser-remote-desktop-tools/)
+
+## Article languages
+
+- [English](https://github.com/cihalqe/bastrio/blob/main/docs/articles/en/README.md)
+- [简体中文](https://github.com/cihalqe/bastrio/blob/main/docs/articles/zh/README.md)
+- [繁體中文](https://github.com/cihalqe/bastrio/blob/main/docs/articles/zh-TW/README.md)
+- [Español](https://github.com/cihalqe/bastrio/blob/main/docs/articles/es/README.md)
+- [Deutsch](https://github.com/cihalqe/bastrio/blob/main/docs/articles/de/README.md)
+- [Français](https://github.com/cihalqe/bastrio/blob/main/docs/articles/fr/README.md)
+- [日本語](https://github.com/cihalqe/bastrio/blob/main/docs/articles/ja/README.md)
+- [한국어](https://github.com/cihalqe/bastrio/blob/main/docs/articles/ko/README.md)
+- [Bahasa Melayu](https://github.com/cihalqe/bastrio/blob/main/docs/articles/ms/README.md)
+- [Русский](https://github.com/cihalqe/bastrio/blob/main/docs/articles/ru/README.md)

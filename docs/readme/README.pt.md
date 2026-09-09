@@ -1,81 +1,128 @@
-<p align="center"><a href="https://bastr.io/"><img src="../images/readme/bastrio-wordmark.png" width="340" alt="Bastrio" /></a></p>
+<p align="center">
+  <a href="https://bastr.io/en/"><img src="../images/readme/bastrio-wordmark.png" width="340" alt="Bastrio" /></a>
+</p>
 
-<p align="center">Um espaço de trabalho no navegador para acesso remoto seguro, operações de infraestrutura e colaboração.</p>
+# Bastrio — WebSSH, desktops remotos, bancos de dados e Docker no navegador
 
-<p align="center"><a href="https://bastr.io/"><strong>bastr.io</strong></a> &nbsp;|&nbsp; <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPL--3.0--only-2b82f0.svg" alt="GPL-3.0-only" /></a></p>
+[Bastrio (Bastr.io)](https://bastr.io/en/) é um espaço de trabalho no navegador para gerenciar servidores remotos. Abra um terminal SSH online, transfira arquivos por SFTP, acesse desktops RDP ou VNC, trabalhe com bancos de dados e gerencie hosts Docker no mesmo lugar. Conexões salvas, abas, painéis divididos, espaços compartilhados e assistência de IA mantêm as tarefas relacionadas juntas, com armazenamento criptografado de credenciais e proteção da conta.
 
-<p align="center"><a href="../../README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-TW.md">繁體中文</a> | <a href="README.ja.md">日本語</a> | <a href="README.ko.md">한국어</a> | <a href="README.es.md">Español</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <strong>Português</strong> | <a href="README.ar.md">العربية</a></p>
+[Abrir espaço de trabalho](https://bastr.io/workspace/) · [Biblioteca de guias](../articles/README.md) · [Site em inglês](https://bastr.io/en/)
 
-## Um espaço de trabalho para infraestrutura remota
+[English](../../README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · Português · [العربية](README.ar.md)
 
-[Bastrio](https://bastr.io/) reúne **SSH online**, SFTP, FTP/FTPS, RDP, VNC e conexões de banco de dados em um único espaço de trabalho no navegador. Use-o como terminal web SSH, gerenciador de arquivos online, cliente de banco de dados no navegador ou espaço compartilhado para administrar servidores remotos.
+## Um espaço de trabalho que acompanha a tarefa
 
-![Bastrio SSH online e acesso remoto no navegador](../images/readme/ssh-online-guest.png)
+Conecte-se a um host, abra o terminal, examine um arquivo de configuração, consulte o banco de dados e verifique um contêiner sem recriar o contexto de conexão em vários aplicativos. A barra de hosts, as abas e os painéis divididos mantêm as ferramentas próximas do trabalho.
 
-## Recursos principais
+![Espaço de trabalho Bastrio com terminal SSH e gerenciador SFTP em painéis divididos](../images/readme/split-workspace.png)
 
-- **Conecte-se pelo navegador:** terminal SSH online, arquivos via SFTP/FTP/FTPS e desktops remotos RDP e VNC.
-- **Ferramentas de banco de dados unificadas:** PostgreSQL, MySQL/MariaDB, SQL Server, Redis e MongoDB no mesmo espaço de trabalho.
-- **Organize conexões:** conexões salvas, pastas, filtros por tipo, recentes, várias sessões e layouts divididos.
-- **Escolha o caminho de rede:** proxy IP por região, proxy personalizado ou host de salto SSH para infraestrutura não exposta diretamente.
-- **Assistência de IA:** o assistente de IA ajuda a explicar saídas, elaborar comandos e apoiar tarefas de terminal e banco de dados.
-- **Espaços colaborativos:** espaços de trabalho e recursos compartilhados preservam o contexto de conexão da equipe.
-- **Documentos operacionais criptografados:** escreva, criptografe e guarde notas, rascunhos e texto sensível dentro do espaço de trabalho.
+| Área | O que você pode fazer na interface |
+| --- | --- |
+| Hosts e sessões | Salvar conexões, organizar pastas, filtrar tipos, reabrir sessões recentes e distribuir abas ou painéis. |
+| WebSSH e comandos remotos | Usar autenticação por senha ou chave SSH, terminal no navegador, comandos rápidos, pesquisa e reconexão. WinRM e Telnet também estão disponíveis quando habilitados. |
+| SFTP, FTP e FTPS | Navegar por diretórios, enviar e baixar arquivos, criar pastas, renomear e editar arquivos de texto compatíveis junto ao terminal. |
+| RDP e VNC | Abrir desktops remotos no navegador com controles de sessão, área de transferência e atalhos. O destino precisa oferecer um serviço RDP ou VNC acessível. |
+| Bancos de dados | Conectar PostgreSQL, MySQL/MariaDB, SQL Server, Redis e MongoDB e usar os recursos de navegação, consulta, edição e backup disponíveis para cada mecanismo. |
+| Docker | Adicionar um host SSH existente, descobrir contêineres, consultar uso de recursos e trabalhar com contêineres, Compose, imagens, volumes e redes. Implantar com modelos de aplicativos, imagens personalizadas ou configurações Compose compatíveis. |
+| Caminhos de rede | Escolher uma rota de proxy regional disponível, configurar seu próprio proxy ou usar um host de salto SSH. |
+| Espaços compartilhados | Alternar entre espaços pessoais e de equipe, convidar membros e conceder acesso aos recursos necessários. |
+| IA e MCP | Pedir ajuda junto ao terminal ou banco de dados ou conectar um cliente MCP aos recursos autorizados. |
+| Documentos criptografados e armazenamento | Organizar documentos, criptografar notas sensíveis com senha independente e gerenciar arquivos no espaço disponível. |
 
-<p align="center"><img src="../images/readme/ssh-online-terminal.png" width="49%" alt="Terminal SSH online Bastrio" /> <img src="../images/readme/connection-types.png" width="49%" alt="Tipos de conexão Bastrio" /></p>
+Protocolos, ações do Docker, gravações em bancos de dados, uso de IA e armazenamento dependem da conta, das permissões do espaço e do serviço de destino. A interface mostra as opções disponíveis na sessão.
 
-<p align="center"><img src="../images/readme/remote-workspace.png" width="49%" alt="Espaço remoto Bastrio" /> <img src="../images/readme/sftp-file-browser.png" width="49%" alt="Navegador de arquivos SFTP Bastrio" /></p>
+## Criptografia e controle de acesso
 
-<p align="center"><img src="../images/readme/proxy-region-picker.png" width="49%" alt="Seletor de região proxy Bastrio" /> <img src="../images/readme/split-workspace.png" width="49%" alt="Espaço de trabalho dividido Bastrio" /></p>
+- **Credenciais criptografadas:** senhas de conexão e chaves privadas salvas são protegidas em repouso com AES-256-GCM.
+- **Transporte protegido:** acesse Bastr.io por HTTPS e escolha protocolos remotos criptografados adequados ao destino, como SSH/SFTP ou FTPS.
+- **Proteção da conta:** habilite a autenticação de dois fatores e guarde a chave de recuperação offline. O processo de recuperação ajuda a restaurar o acesso às credenciais criptografadas após redefinir a senha.
+- **Documentos com senha própria:** selecione o modo criptografado, defina uma senha independente e confirme a criptografia e o salvamento no editor. Guarde essa senha com cuidado.
+- **Acesso de IA controlado:** chaves de API MCP têm permissões selecionadas, validade e revogação. Revise solicitações de aprovação no navegador e gerencie as credenciais dos servidores pela interface do espaço de trabalho.
 
-<p align="center"><img src="../images/readme/postgresql-workspace.png" width="49%" alt="Espaço PostgreSQL Bastrio" /> <img src="../images/readme/encrypted-operations-documents.png" width="49%" alt="Documentos operacionais criptografados Bastrio" /></p>
+Essas proteções se somam às permissões e à segurança dos sistemas remotos. Mantenha credenciais reais e materiais de recuperação fora de documentos compartilhados, capturas de tela e conversas com IA.
 
-<p align="center"><img src="../images/readme/recovery-key.png" width="49%" alt="Chave de recuperação Bastrio" /></p>
+## Alternativas a ferramentas SSH, de banco de dados e Docker
 
-## Caminhos de rede sob seu controle
+Ao procurar uma alternativa ao Termius, uma forma de trabalhar no navegador em vez de FinalShell ou Xshell, um cliente de banco de dados semelhante ao Navicat ou uma alternativa ao Portainer via SSH, comece pela tarefa. Bastrio reúne diferentes recursos remotos em um fluxo compartilhado no navegador.
 
-O Bastrio permite usar o caminho adequado para cada acesso remoto no navegador: selecione um **proxy IP** para uma região de saída, configure um proxy personalizado para controlar a rota ou use um **host de salto SSH** para alcançar infraestrutura privada. Essas opções ficam na própria configuração da conexão.
+| Ferramentas em comparação | Quando considerar Bastrio | Guia em inglês |
+| --- | --- | --- |
+| Termius, FinalShell, MobaXterm, Xshell, SecureCRT e PuTTY | SSH no navegador, hosts salvos, sessões divididas e arquivos próximos. Avalie requisitos de scripts de desktop e X11 separadamente. | [Ferramentas SSH](../articles/en/ssh-tools-browser-workspace.md) |
+| WinSCP, FileZilla, Xftp e Cyberduck | Transferências SFTP ou FTP/FTPS e edição de texto junto à sessão remota. | [Fluxo FTP/SFTP](../articles/en/ftp-sftp-tools-browser-workflow.md) |
+| Navicat, DBeaver, DataGrip, pgAdmin, Redis Insight e MongoDB Compass | Banco de dados no navegador ao lado dos hosts, conforme as necessidades de consulta, edição e backup de cada mecanismo. | [Bancos de dados remotos](../articles/en/remote-database-tools-comparison.md) |
+| Apache Guacamole, TeamViewer, AnyDesk e ToDesk | Acesso pelo navegador a um destino RDP/VNC existente. Assistência remota e gateways de desktop têm requisitos de conexão distintos. | [Desktops remotos](../articles/en/browser-remote-desktop-tools.md) |
+| Portainer, Dockge e Docker Desktop | Gerenciamento remoto de Docker e Compose por um host SSH existente. Desenvolvimento local e gestão de clusters exigem avaliação própria. | [Docker por cenário](../articles/en/docker-management-tools-by-scenario.md) |
+| MCP junto a SSH, bancos de dados e Docker | Um cliente de IA acessando recursos autorizados, com permissões e controles de aprovação. | [Gerenciamento via MCP](../articles/en/mcp-remote-management-tools.md) |
 
-## Trabalho remoto concentrado e colaborativo
+A comparação trata de fluxos de trabalho. Os recursos variam por produto, edição e configuração; os guias também explicam quando uma ferramenta especializada pode ser mais adequada.
 
-Bastrio é um espaço remoto para desenvolvedores, operadores e equipes que alternam entre servidores, arquivos, desktops e bancos de dados. Espaços de trabalho e recursos compartilhados preservam o contexto; várias sessões e layouts divididos mantêm o trabalho relacionado visível; o assistente de IA fica próximo da tarefa.
+## Começar no navegador
 
-## Privacidade por design
+1. Visite [bastr.io](https://bastr.io/en/). Use uma conexão de visitante disponível para uma sessão temporária ou entre na conta para salvar seu trabalho.
+2. Escolha o protocolo em **Quick Connect** ou adicione um destino em **Hosts**. Digite senhas e chaves privadas apenas no formulário de conexão.
+3. Selecione um proxy ou host de salto SSH quando precisar de um caminho de rede específico.
+4. Abra a sessão e use **Files**, o painel de banco de dados ou **Docker** para continuar a tarefa. Organize sessões relacionadas com os controles de layout.
+5. Para trabalhar em equipe, selecione o espaço correto e compartilhe os recursos necessários. Habilite dois fatores e guarde o material de recuperação.
 
-Credenciais e conteúdo privado do espaço de trabalho são criptografados em trânsito e em repouso. O Bastrio só descriptografa credenciais temporariamente na memória volátil do servidor quando uma operação autorizada as exige; texto simples nunca é gravado em disco ou logs. Todo acesso visível ao usuário exige uma sessão autenticada válida. Quando uma sessão expira ou é revogada, não é mais possível acessar ou descriptografar o cofre criptografado. A chave de recuperação é exibida apenas uma vez; ela é necessária para restaurar credenciais criptografadas após uma redefinição de senha. Sem ela, o cofre criptografado não pode ser recuperado ou exportado em formato legível.
+Conexões de visitante têm disponibilidade e limites próprios. Hosts salvos, colaboração e determinadas ferramentas exigem login ou uma conta elegível.
 
-## Marketplace, planejado
+## Gerenciar Docker por SSH
 
-Bastrio está preparando um Marketplace para servidores gerenciados e serviços de proxy IP. Essas ofertas estão planejadas para uma versão futura e não estão disponíveis no momento.
+Abra **Docker** e selecione um host SSH ao qual você tenha acesso. A interface reúne contêineres, Compose, imagens, volumes, redes e progresso de tarefas. Consulte estado e consumo de recursos, execute ações de ciclo de vida compatíveis e inicie uma implantação com modelos de aplicativos, imagem personalizada ou configuração Compose compatível.
 
-## Começar
+Se o Docker não estiver instalado, a interface pode orientar a instalação em hosts Linux compatíveis após sua revisão e confirmação. A disponibilidade depende do host, das permissões e do acesso atual à funcionalidade. Veja o [guia de Docker em inglês](../articles/en/docker-management-tools-by-scenario.md).
 
-1. Visite [bastr.io](https://bastr.io/) para abrir o espaço remoto Bastrio.
-2. Escolha SSH, transferência de arquivos, desktop remoto ou uma conexão de banco de dados.
-3. Se necessário, escolha um caminho de rede e salve a conexão para organizar o trabalho futuro.
+## Conectar clientes de IA por MCP
+
+Bastrio oferece conexões Model Context Protocol (MCP) para clientes como Claude Code, Codex, Cursor e VS Code. Além do assistente de IA integrado, seu cliente pode trabalhar com hosts, arquivos, bancos de dados e caminhos de rede autorizados.
+
+1. Abra **Tools → MCP API Keys**.
+2. Crie uma chave com as permissões e a validade necessárias.
+3. Selecione o cliente e siga as instruções de conexão da página.
+4. Guarde a chave na configuração de segredos ou variáveis de ambiente suportada pelo cliente, revise as aprovações no navegador e revogue o acesso quando deixar de ser necessário.
+
+Use o endereço exibido na sua conta. O cliente deve descobrir as ferramentas disponíveis no serviço MCP de acordo com as permissões concedidas. Leia o [guia MCP em inglês](../articles/en/mcp-remote-management-tools.md).
+
+## Seis guias em dez idiomas
+
+A [biblioteca de guias](../articles/README.md) reúne seis comparações publicadas em inglês, chinês simplificado, chinês tradicional, espanhol, alemão, francês, japonês, coreano, malaio e russo. As cópias preservam as traduções existentes, imagens, perguntas frequentes e links para os originais. Os links de comparação desta página levam às versões em inglês; não há tradução desses artigos para português nesta coleção.
+
+[English](../articles/en/README.md) · [简体中文](../articles/zh/README.md) · [繁體中文](../articles/zh-TW/README.md) · [日本語](../articles/ja/README.md) · [한국어](../articles/ko/README.md) · [Español](../articles/es/README.md) · [Deutsch](../articles/de/README.md) · [Français](../articles/fr/README.md) · [Bahasa Melayu](../articles/ms/README.md) · [Русский](../articles/ru/README.md)
 
 ## Perguntas frequentes
 
-### Bastrio é um terminal web SSH?
+### O que é Bastrio?
 
-Sim. Bastrio oferece SSH online no navegador junto com transferência de arquivos, desktop remoto, bancos de dados, proxy e ferramentas de espaço de trabalho.
+É um espaço de trabalho no navegador que reúne WebSSH, transferência de arquivos, RDP/VNC, bancos de dados, Docker, recursos compartilhados e assistência de IA para desenvolvedores e operadores.
 
-### Posso usar proxy IP, proxy personalizado e host de salto SSH?
+### Bastrio pode substituir Termius, FinalShell ou MobaXterm?
 
-Sim. Bastrio oferece seleção regional de proxy IP, configuração de proxy personalizado e hosts de salto SSH.
+Oferece um fluxo no navegador para tarefas comuns de SSH e arquivos. Confira dependências de integração com o shell local, macros ou X11 antes de mudar. O [guia SSH em inglês](../articles/en/ssh-tools-browser-workspace.md) ajuda a escolher por cenário.
 
-### Uma equipe pode colaborar no mesmo ambiente?
+### É uma alternativa no navegador ao Navicat ou DBeaver?
 
-Sim. Espaços de trabalho e recursos compartilhados são projetados para manter o trabalho de infraestrutura remota organizado e colaborativo.
+Pode atender tarefas comuns com PostgreSQL, MySQL/MariaDB, SQL Server, Redis e MongoDB. Operações variam conforme o mecanismo e as permissões; avalie modelagem avançada, sincronização e desenvolvimento especializado conforme seus requisitos.
 
-## Contato
+### É uma alternativa ao Portainer?
 
-E-mail: [sup@bastr.io](mailto:sup@bastr.io)
+Pode ser avaliado para gerenciamento de hosts Docker e Compose junto a SSH, arquivos e bancos de dados, usando uma conexão SSH existente. Compare o [guia de Docker em inglês](../articles/en/docker-management-tools-by-scenario.md) com as necessidades do ambiente.
 
-## Contribuições
+### Preciso instalar um cliente de desktop?
 
-Contribuições e relatos de problemas são bem-vindos. Mantenha as propostas focadas no comportamento visível para o usuário e não inclua credenciais ou dados privados de conexão em issues ou pull requests.
+O espaço de trabalho funciona em um navegador compatível. O destino precisa oferecer um serviço remoto acessível e credenciais válidas.
 
-## Licença
+### Como são protegidas as credenciais e notas sensíveis?
 
-Bastrio é publicado sob a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+Credenciais salvas usam AES-256-GCM em repouso e o acesso ao site usa HTTPS. Documentos sensíveis permitem salvamento criptografado com senha própria. Dois fatores, recuperação e permissões complementam a proteção.
+
+### Posso usar sem conta?
+
+Use o acesso de visitante quando estiver disponível na página inicial. Protocolos e limites de tempo podem variar. Entre na conta para salvar conexões e usar as ferramentas disponíveis para seu perfil.
+
+## Contato e informações do projeto
+
+Site: [bastr.io](https://bastr.io/en/) · Suporte: [sup@bastr.io](mailto:sup@bastr.io) · [Relatar um problema](https://github.com/cihalqe/bastrio/issues)
+
+Este repositório contém a documentação pública e os guias do Bastrio. Sugestões e correções são bem-vindas. Use exemplos sem informações sensíveis em issues e pull requests.
+
+Licença: [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
