@@ -85,6 +85,8 @@ Bastrio supports Model Context Protocol (MCP) connections from clients such as C
 
 Use the endpoint shown in your account. Available tools depend on the granted permissions; the client should discover them from the MCP service. Read the [MCP guide](docs/articles/en/mcp-remote-management-tools.md) for examples of how this fits with SSH, database and Docker work.
 
+For plugin installation and direct Cursor configuration, see the [Bastrio MCP plugin guide](docs/plugin-install.md). This repository includes `plugin.json` and `mcp.json` at its root for compatible plugin clients and directory scanners.
+
 ## Six practical guides, ten languages
 
 The [guide library](docs/articles/README.md) contains the six published comparisons in English, Simplified Chinese, Traditional Chinese, Spanish, German, French, Japanese, Korean, Malay and Russian. Each version keeps the existing article text, illustrations, FAQ and a link to its original Bastr.io page.

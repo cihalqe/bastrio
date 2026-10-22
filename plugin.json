@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bastrio",
+  "version": "1.0.0",
+  "description": "Manage remote servers, SSH terminals, files, databases and proxies with scoped access and approvals.",
+  "author": {
+    "name": "cihalqe",
+    "url": "https://github.com/cihalqe"
+  },
+  "homepage": "https://bastr.io/mcp.html",
+  "repository": "https://github.com/cihalqe/bastrio",
+  "keywords": ["mcp", "ssh", "servers", "files", "databases", "devops"]
+}
